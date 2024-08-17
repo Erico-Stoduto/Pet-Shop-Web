@@ -1,0 +1,324 @@
+body {
+    background-image: url("Imagens/cao\ e\ gato.jpg");
+    background-size: contain;
+    background-size: 100% 85%;
+    background-repeat: no-repeat;
+    background-position: top;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #7ED957;
+    color: black;
+    text-align: center;
+    height: 50px;
+}
+
+.brand {
+    font-size: 40px;
+    margin-top: 0;
+}
+
+.menu {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 35px;
+}
+
+.nav-link.destaque {
+    color: white !important;
+}
+
+.container-carousel {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+}
+
+.carousel-item {
+    height: 400px;
+    width: 1500px;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-position: center;
+}
+
+.carousel-caption {
+    bottom: 20px;
+    color: white;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: .25rem;
+    overflow: hidden;
+    background-color: #fff;
+    margin-left: 150px;
+}
+
+.img-container {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    margin-top: auto;
+}
+
+.footer nav {
+    padding: 10px 0;
+}
+
+.footer h5 {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.footer .nav-link {
+    color: white;
+    text-decoration: none;
+}
+
+.footer .nav-link:hover {
+    text-decoration: underline;
+}
+
+.footer .list-unstyled i {
+    margin-right: 10px;
+}
+
+.footer .list-unstyled li {
+    margin-bottom: 10px;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*STYLE MEDICAMENTOS -- ACESSORIOS E PRODUTOS*/
+
+.containerProduct {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 150px;
+}
+
+.product {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 250px;
+    height: 250px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+    margin: 20px;
+}
+
+.product img {
+    width: 100%;
+    height: 60%;
+    border-radius: 10px;
+}
+
+.discount {
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.brandProduct {
+    font-weight: bold;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.price {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.final-price {
+    color: green;
+    font-size: 1.0em;
+    font-weight: bold;
+}
+
+/*agendamento cadastro login */
+
+.containerAgendamento {
+    width: 450px;
+    margin: 60px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.containerCadastro {
+    width: 450px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.containerLogin {
+    width: 450px;
+    margin: 80px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.headerH2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+.social-login {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.social-login img {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.signup {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/*servicos*/
+
+.servico {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 600px;
+    height: 500px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    margin-left: 670px;
+}
+
+.servico a {
+    text-decoration: none;
+}
+
+.servico img {
+    width: 100%;
+    height: 60%;
+    border-radius: 10px;
+}
+
+.brandServico {
+    font-weight: bold;
+    margin-top: 5px;
+    text-align: center;
+    font-size: 50px;
+    color: black;
+}
+
+/*Pagina de confirmacao*/
+.message {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.message h1 {
+    color: #4CAF50;
+    text-align: center;
+}
